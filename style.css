@@ -1,0 +1,133 @@
+.handjet-<uniquifier> {
+  font-family: "Handjet", serif, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
+
+body {
+  background: black;
+  color: rgb(3, 227, 252);
+  font-family: Arial, Georgia, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+}
+
+.nav {
+  background-color: grey;
+  color: rgb(168, 26, 219);
+}
+
+
+
+a:visited:hover {
+color: rgb(106, 15, 217);
+}
+
+header {
+  display: flex;
+  text-align:center;
+  justify-content: center;
+  width: 99vw;
+  border: 3px solid white;
+  flex-direction: column;
+}
+
+table, tr, th {
+  color: rgb(231, 84, 128);
+  font-family: serif;
+  font-weight: bold;
+  justify-content: center;
+  
+}
+
+h2 {
+  font-weight: 900;
+}
+
+h1 {
+  width: 99vw;
+}
+
+p {
+  justify-content: center;
+  width: 99vw;
+}
+
+
+#send {
+  background-color: grey;
+  color: white;
+}
+
+#send:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* Tic Tac Toe code*/ 
+
+#ttt-img {
+  display: flex;
+  justify-content: center;
+  width: 99vw;
+}
+
+
+
+/* Footer Code */
+
+#footer-text {
+  display: flex;
+  justify-content: left;
+  width: 99vw;
+}
+
+#respond {
+  background-color: rgb(3, 227, 252);
+}
+#respond:hover {
+  background-color: rgb(150, 175, 217);
+}
+
+
+
+/* Runner Code */
+
+#runner-img {
+  display: flex;
+  justify-content: center;
+  width: 99vw;
+}
+
+
+
+
+
+
+footer {
+  width:99vw;
+}
+
+@media only screen (min-width: 480px) and (max-width: 1700) {
+
+}
+
+@media only screen (max-width:425px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+@media only screen (max-width: 623px) {
+  p {
+    font-size: 8px;
+  }
+}

@@ -16,10 +16,15 @@ nav {
   color: rgb(168, 26, 219);
 }
 
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
 
-
-a:visited:hover {
-color: rgb(106, 15, 217);
+a:hover {
+color: rgb(9, 221, 236);
+font-weight: bold;
+font-style: italic;
 }
 
 header {
